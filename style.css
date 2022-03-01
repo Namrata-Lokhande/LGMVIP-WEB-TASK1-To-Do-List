@@ -1,0 +1,162 @@
+
+.main{
+    height: 480px;
+
+}
+
+.todo{
+   
+    height: 150vh;
+    max-height: fit-content;
+    background-image: url("d1.jpg");
+    padding-top: 50px;
+    padding-left: 300px;
+
+}
+.container{
+    border-radius: 10px;
+    border: 10px ;
+    background-color:transparent;
+    height: 2vh;
+    height:600px;
+    width: 400px;
+    position: relative;
+    bottom: 1px;
+    border-width: 4px;
+    align-items: center;
+    
+
+}
+.search{
+    border-radius: 10px;
+    border-color: rgb(254, 254, 255);
+    background-color:rgb(13, 14, 12);
+    border: 10px solid rgb(247, 78, 190);
+    border-bottom-color:rgb(6, 20, 221) ;
+    border-top-color:yellow ;
+    border-left: #1cec5a;
+    border-right: #1cec5a;
+    border-left-width:10px ;    
+    border-width: 4px;
+    height: 2vh;
+    height: 50px;
+    width: 360px;
+    position: relative;
+    left: 30px;
+    right:100px;
+   
+    padding-top: 12%;
+    align-self: center;
+    justify-content: center; 
+
+
+
+}
+.search h1{
+    border-radius: 15px;
+    border-color: #0a0a0a;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    font-size: 28px;
+    float :left;
+    font-family: Century Gothic;
+    font-weight: 70;
+    color:rgb(3, 2, 92);
+    text-transform: uppercase;
+    background-color: white;
+    max-width: 300px;
+}
+.search h1:hover{
+
+    color: #f9fd0d;
+    background-color: #0508c4;
+}
+.search button{
+    font-size: 20px;
+    font-family: Century Gothic;
+    background-color: #784BA0;
+    color:white;
+    position: relative;
+    border-color: rgb(250, 249, 249);
+    
+    bottom: 84px;
+    height: 33px;
+    left: 40px;
+    
+}
+button:hover{
+    background-color:#dd27a6;
+    border-color: black;
+    color:rgb(7, 0, 0);
+    border-color: white;
+}
+input{
+    border-color: #dd27a6;
+    border-top-left-radius: 5px;
+    border-width: 4px;
+    position: relative;
+
+    
+    bottom: 87px;
+    left: 40px;
+    width: 220px;
+    height: 27px;
+    
+}
+.search hr{
+    position: relative;
+    bottom: 60px;
+
+}
+
+ul li {
+    color: rgb(8, 1, 7);
+    font-style: bold;
+    font-family: Century Gothic;
+    cursor: pointer;
+    position: relative;
+    left: -7px;
+    padding: 12px 8px 12px 40px;
+    background: rgb(247, 248, 250);
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    font-style: bold;
+    border-color: black;
+    background: #0a0a0a;
+    color: rgb(250, 248, 248);
+   
+}
+
+    
+  /* Darker background-color on hover */
+  ul li:hover {
+    background-color:#1e0fe4 ;
+    font-style: bold;
+    color: rgb(248, 246, 246);    
+    font-size: 20px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #faf8fa;
+    color: rgb(17, 16, 16);
+  }
+  
